@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
 const http = require('http').createServer(app);
+const db = require('./config/dbConnection')
 const bodyParser = require('body-parser');
 const PORT = 5001;
 
