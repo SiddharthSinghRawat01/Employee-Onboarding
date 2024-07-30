@@ -37,6 +37,10 @@ const loginRegister = {
             console.log(error);
             throw error;
         }
+    },
+
+    logIn: async (req,res) =>{
+
     }
 
 }
